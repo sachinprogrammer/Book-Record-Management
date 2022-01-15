@@ -1,0 +1,14 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+     int p, rate,year;
+     float simpleint;
+     Printf("Enter p, rate, year : ");
+     scanf("%d%d%d",&p,&rate,&year);
+
+     simpleint = ( p * rate * year ) / 100;
+     printf("%f", simpleint); 
+
+    getch();
+}
